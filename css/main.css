@@ -1,0 +1,580 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+
+html {
+	font-family: sans-serif; /* 1 */
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+	margin: 0;
+}
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+	background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+
+a:active,
+a:hover {
+	outline: 0;
+	text-decoration: none;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+	font-weight: bold;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -.5em;
+}
+
+sub {
+	bottom: -.25em;
+}
+
+.ellipsis {
+	white-space: nowrap; /* 1 */
+	text-overflow: ellipsis; /* 2 */
+	overflow: hidden;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+* {
+	max-height: 1000000px;
+}
+
+body {
+	color: #333;
+	min-width: 320px;
+	background: #fff;
+	font: 16px/1.2 "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+p {
+	margin: 0 0 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+#wrapper {
+	width: 468px;
+	height: 60px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+	background: white;
+	border: 1px solid #707070;
+	-webkit-animation: wrapper 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: wrapper 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+#ad {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.a {
+	position: absolute;
+}
+
+.frame .bg {
+	position: absolute;
+	right: -27px;
+	width: 297px;
+	-webkit-animation: bg 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: bg 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+.frame .bg-shadow {
+	position: absolute;
+	top: 0;
+	left: -135px;
+	-webkit-animation: bg 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: bg 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+.frame .logos {
+	position: absolute;
+    top: 7px;
+    right: 74px;
+}
+
+.frame .logos img {
+	position: absolute;
+	min-width: 66px;
+}
+
+.frame .logos img:nth-child(1) {
+	-webkit-animation: logo-2 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: logo-2 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+.frame .logos img:nth-child(2) {
+	-webkit-animation: logo-1 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: logo-1 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+.frame .text-1 {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 324px;
+	-webkit-animation: text-1 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: text-1 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+.frame .text-2 {
+	position: absolute;
+	top: 6px;
+	left: 12px;
+	width: 306px;
+	-webkit-animation: text-2 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: text-2 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+.frame .text-3 {
+	position: absolute;
+	top: 6px;
+	left: 12px;
+	width: 258px;
+	-webkit-animation: text-3 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: text-3 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+.frame .knot-2 {
+	position: absolute;
+	top: -13px;
+	left: -28px;
+	min-width: 417px;
+	-webkit-animation: text-4 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: text-4 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+.frame .line_1 {
+	position: absolute;
+	top: -271px;
+	right: 106px;
+	width: 6px;
+	overflow: hidden;
+	-webkit-animation: line-1 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: line-1 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+.frame .line_1 img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	max-height: 300px;
+}
+
+.frame .line_2 {
+	position: absolute;
+	bottom: -273px;
+	left: 354px;
+	width: 6px;
+	overflow: hidden;
+	-webkit-animation: line-2 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: line-2 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+.frame .line_2 img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-height: 300px;
+}
+
+.frame .ribbon {
+	position: absolute;
+	top: 18px;
+	left: 333px;
+	width: 50px;
+	overflow: hidden;
+	-webkit-animation: ribbon 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: ribbon 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+.frame .btn-2 {
+    position: absolute;
+    top: 12px;
+    left: 102px;
+    width: 140px;
+	-webkit-animation: text-4 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+	animation: text-4 15s cubic-bezier(.215, .61, .355, 1) forwards 2;
+}
+
+@-webkit-keyframes wrapper {
+	0% {
+		background: white;
+		opacity: 0;
+	}
+
+	4%,
+	50% {
+		background: white;
+		opacity: 1;
+	}
+
+	52%,
+	100% {
+		background: #141760;
+		opacity: 1;
+	}
+}
+
+@keyframes wrapper {
+	0% {
+		background: white;
+		opacity: 0;
+	}
+
+	4%,
+	50% {
+		background: white;
+		opacity: 1;
+	}
+
+	52%,
+	100% {
+		background: #141760;
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes bg {
+	0%,
+	30% {
+		opacity: 1;
+	}
+
+	32%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes bg {
+	0%,
+	30% {
+		opacity: 1;
+	}
+
+	32%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes logo-2 {
+	0%,
+	30% {
+		opacity: 0;
+	}
+
+	32%,
+	50% {
+		opacity: 1;
+	}
+
+	52%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes logo-2 {
+	0%,
+	30% {
+		opacity: 0;
+	}
+
+	32%,
+	50% {
+		opacity: 1;
+	}
+
+	52%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes logo-1 {
+	0%,
+	50% {
+		opacity: 0;
+	}
+
+	52%,
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes logo-1 {
+	0%,
+	50% {
+		opacity: 0;
+	}
+
+	52%,
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes text-1 {
+	0%,
+	30% {
+		opacity: 1;
+	}
+
+	32%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes text-1 {
+	0%,
+	30% {
+		opacity: 1;
+	}
+
+	32%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes text-2 {
+	0%,
+	30% {
+		opacity: 0;
+	}
+
+	32%,
+	50% {
+		opacity: 1;
+	}
+
+	52%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes text-2 {
+	0%,
+	30% {
+		opacity: 0;
+	}
+
+	32%,
+	50% {
+		opacity: 1;
+	}
+
+	52%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes text-3 {
+	0%,
+	50% {
+		opacity: 0;
+	}
+
+	52%,
+	70% {
+		opacity: 1;
+	}
+
+	72%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes text-3 {
+	0%,
+	50% {
+		opacity: 0;
+	}
+
+	52%,
+	70% {
+		opacity: 1;
+	}
+
+	72%,
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes text-4 {
+	0%,
+	70% {
+		opacity: 0;
+	}
+
+	72%,
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes text-4 {
+	0%,
+	70% {
+		opacity: 0;
+	}
+
+	72%,
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes line-1 {
+	0%,
+	70% {
+		height: 0;
+	}
+
+	89%,
+	100% {
+		height: 300px;
+	}
+}
+
+@keyframes line-1 {
+	0%,
+	70% {
+		height: 0;
+	}
+
+	89%,
+	100% {
+		height: 300px;
+	}
+}
+
+@-webkit-keyframes line-2 {
+	0%,
+	70% {
+		height: 0;
+	}
+
+	89%,
+	100% {
+		height: 300px;
+	}
+}
+
+@keyframes line-2 {
+	0%,
+	70% {
+		height: 0;
+	}
+
+	89%,
+	100% {
+		height: 300px;
+	}
+}
+
+@-webkit-keyframes ribbon {
+	0%,
+	84% {
+		-webkit-transform: scaleX(.5) scaleY(.8) rotateZ(-30deg);
+		transform: scaleX(.5) scaleY(.8) rotateZ(-30deg);
+		opacity: 0;
+	}
+
+	87%,
+	100% {
+		-webkit-transform: scaleX(1) scaleY(1) rotateZ(-16deg);
+		transform: scaleX(1) scaleY(1) rotateZ(-16deg);
+		opacity: 1;
+	}
+}
+
+@keyframes ribbon {
+	0%,
+	84% {
+		-webkit-transform: scaleX(.5) scaleY(.8) rotateZ(-30deg);
+		transform: scaleX(.5) scaleY(.8) rotateZ(-30deg);
+		opacity: 0;
+	}
+
+	87%,
+	100% {
+		-webkit-transform: scaleX(1) scaleY(1) rotateZ(-16deg);
+		transform: scaleX(1) scaleY(1) rotateZ(-16deg);
+		opacity: 1;
+	}
+}
